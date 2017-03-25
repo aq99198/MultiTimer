@@ -91,3 +91,12 @@ void timer_ticks()
 	_timer_ticks++;
 }
 
+/**
+  * @brief  set timer repeat val.
+  * @param  target handle strcut and repeat val
+  * @retval None.
+  */
+void timer_set_repeat(struct Timer* handle, uint32_t repeat)
+{
+	handle->repeat = repeat;
+}

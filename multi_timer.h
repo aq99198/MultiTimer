@@ -26,8 +26,7 @@ void timer_ticks(void);
 void timer_loop(void);
 
 // void timer_again(struct Timer* handle);
-// void timer_set_repeat(struct Timer* handle, uint32_t repeat);
-
+void timer_set_repeat(struct Timer* handle, uint32_t repeat);
 #ifdef __cplusplus
 } 
 #endif
